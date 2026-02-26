@@ -41,7 +41,7 @@ class BankAccount {
     }
 }
 
-public class BankManagementSystem {
+public class devops {
     private static ArrayList<BankAccount> accounts = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
