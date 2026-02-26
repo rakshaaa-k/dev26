@@ -3,8 +3,13 @@ import java.util.Scanner;
 public class devops {
     public static void main(String[] args) {
 
-        int num1 = 10;
-        int num2 = 20;
+        if (args.length < 2) {
+            System.out.println("Please provide two numbers.");
+            return;
+        }
+
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[1]);
 
         int sum = num1 + num2;
 
