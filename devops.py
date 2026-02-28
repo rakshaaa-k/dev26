@@ -1,4 +1,4 @@
-class Student:
+class devops:
     def __init__(self, name, roll_number, marks):
         self.name = name
         self.roll_number = roll_number
